@@ -3,7 +3,7 @@ layout: post
 title: "Using Guard and Jasmine to Make CoffeeScript Testing Fast"
 date: 2012-09-23 14:21
 comments: true
-categories: 
+categories: [code, coffeescript, javascript, guard]
 ---
 
 When I'm developing in Ruby and Rails using RSpec, I have a mapping in my vim
@@ -18,9 +18,9 @@ RSpec:
 
 ```javascript
 describe("A suite", function() {
-    it("contains spec with an expectation", function() {
-          expect(true).toBe(true);
-     });
+  it("contains spec with an expectation", function() {
+    expect(true).toBe(true);
+  });
 });
 ```
 
@@ -66,7 +66,6 @@ guard :coffeescript, :output => 'javascripts' do
 end
 
 guard :coffeescript, :output => 'spec/javascripts' do
-  # watch(%r{^spec/src/.*/(.*)\.coffee})
   watch(%r{^spec/src/(.*)\.coffee})
 end
 
