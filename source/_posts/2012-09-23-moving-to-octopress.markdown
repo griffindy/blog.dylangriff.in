@@ -9,8 +9,9 @@ categories: [code, ruby, octopress, jekyll]
 I used to host my blog on Tumblr because that seemed like an easy solution. But
 starting today I'm moving to [Octopress](http://octopress.org/) because I
 actually think it's even easier to use. Octopress fits better into my blog
-writing workflow and appeals to my geeky side because I'm doing all of the
+eriting workflow and appeals to my geeky side because I'm doing all of the
 hosting/deploying/what-have-you myself.
+<!--more-->
 
 How easy is using Octopress? As easy as downloading the source and running `rake
 install`. After doing and `rake preview` you'll see the standard Octopress theme

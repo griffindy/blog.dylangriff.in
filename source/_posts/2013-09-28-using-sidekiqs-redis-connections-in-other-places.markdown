@@ -23,6 +23,7 @@ Sidekiq.redis do |connection|
   connection.keys('*')
 end
 ```
+<!--more-->
 
 This is advantageous if you ever wanted to do your own things in redis, but
 didn't want to duplicate the logic to connect. We do in fact make other

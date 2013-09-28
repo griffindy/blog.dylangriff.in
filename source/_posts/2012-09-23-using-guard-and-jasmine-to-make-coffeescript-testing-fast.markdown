@@ -23,6 +23,7 @@ describe("A suite", function() {
   });
 });
 ```
+<!--more-->
 
 In CoffeeScript, with it's simpler syntax, this looks even closer to RSpec:
 
